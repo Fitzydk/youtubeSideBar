@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Side bar Application</title>
       </Head>
-      <div className="flex flex-col justify-center items-center h-screen text-lg text-center bg-white">
+      <div className="flex flex-col justify-center items-center h-screen text-lg text-center">
         <Link href="/view">
           <div className="text-white cursor-pointer bg-sky-500 rounded-lg p-3 m-2 hover:bg-sky-400">
             View
