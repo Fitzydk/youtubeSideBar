@@ -100,7 +100,7 @@ const View: NextPage = () => {
 
     let time = hh + ":" + mm + " " + session;
     setTime(time);
-    let t = setTimeout(function () {
+    let t = setTimeout(function() {
       currentTime();
     }, 5000);
   };
@@ -113,8 +113,8 @@ const View: NextPage = () => {
       <div className="flex flex-row justify-end items-start h-screen w-screen">
         <div className="w-fit h-screen text-white bg-zinc-900 p-5 font-['Bebas_Neue'] font-light">
           <div className="flex flex-col justify-start items-start mb-8">
-            <div className="text-3xl text-center">{time}</div>
-            <div className="text-3xl text-center">{date}</div>
+            <div className="text-5xl text-center">{time}</div>
+            <div className="text-2xl text-center">{date}</div>
             <Image
               src="/cryptoWarehouse.png"
               width={200}

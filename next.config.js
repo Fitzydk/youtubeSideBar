@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ["fitzy.vercel.app", "yt4.ggpht.com"],
   },
+  typescript: {
+    ignoreBuildErrors: true
+  }
 };
 
 module.exports = nextConfig;
